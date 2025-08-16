@@ -1,0 +1,13 @@
+name: Matchbox
+main: com.example.matchbox.MatchboxPlugin
+version: 1.0.0
+description: A simple, configurable minigame skeleton (Hunter vs Runners) you can adapt
+api-version: 1.20
+author: you
+commands:
+  matchbox:
+    description: Base command for Matchbox
+    usage: "/matchbox <join|leave|start|stop|setspawn|status>"
+permissions:
+  matchbox.admin:
+    default: op
